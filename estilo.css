@@ -1,0 +1,302 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a:hover {
+    font-size: 23px;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: -80px;
+
+}
+
+header {
+    background-image: url("imagens/fundo2.jpeg");
+    padding-bottom: 20%;
+ 
+}
+
+.principal {
+    padding-top: 30px;
+    background: linear-gradient(#fefefe, #888888);
+    padding-bottom: 75px;
+}
+
+.oferta li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 20px;
+
+}
+
+.oferta h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.itens {
+    padding-bottom: 15px;
+    width: 120px;
+    height: 120px;
+}
+
+.itens:hover {
+    width: 125px;
+    height: 125px;
+}
+
+.secundaria {
+    text-align: center;
+    background: linear-gradient(#f2dfd3, #c08457);
+    padding-bottom: 40px;
+}
+
+.secundaria h1, .terceira > h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+
+
+.secundaria h1 + p {
+    font-size: 26px;
+    color: orangered;
+    padding-bottom: 40px;
+}
+
+.secundaria h1 + p + p {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+    padding-bottom: 40px;
+
+}
+
+.secundaria a {
+    text-decoration: none;
+    font-size: 30px;
+    color: orangered;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: #964b00;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.secundaria a:hover {
+    background-color: #e4c0a8;
+    transform: scale(1.2);
+}
+
+.terceira {
+    background: linear-gradient(#cecece, #bfbfbf);
+    padding: 70px 0;
+}
+
+.terceira > h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services li {
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+    vertical-align: top;
+    padding: 70px 20px;
+
+}
+
+.services li:hover {
+    margin: 10px 10px;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    background-color: #dedede;
+}
+
+.services h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: orangered;
+
+}
+
+.formulario {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    background: linear-gradient(whitesmoke, #e0ffff);
+}
+
+.formulario > h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    color: orangered;
+
+}
+
+.dados {
+    text-align: center;
+    display: inline;
+
+    font-size: 20px;
+
+}
+
+.msg {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    display: block;
+}
+
+.input_padrao {
+    text-align: center;
+    width: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 25px;
+
+}
+
+.input_padrao:hover {
+    border: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 2px;
+}
+
+.input {
+    text-align: center;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+.enviar {
+    display: block;
+    position: relative;
+    left: 530px;
+    width: 20%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+/*
+footer {
+    background: #debeab;
+    padding-bottom: 125px;
+
+}
+
+.rodape p {
+    display: inline;
+    position: relative;
+    top: 80px;
+    text-align: center;
+
+}
+.img_rodape{
+    width: 940px;
+    position: relative;
+    padding-left: 600px;
+    margin: 0 auto;
+    vertical-align: middle;
+
+}
+.tamanho{
+    width: 50px;
+    height: 50px;
+}*/
+
+
+ footer {
+    background:linear-gradient(#debeab,black) ;
+}
+
+
+
+.rodape {
+    width: 940px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+
+.rodape > div {
+    font: 24px calibri;
+    font-weight: lighter;
+    color: #fff;
+    display: inline-block;
+    padding: 20px 40px;
+    vertical-align: middle
+}
+
+.rodape > div i {
+    font-size: 65px;
+    color: inherit;
+    vertical-align: middle;
+
+
+}
+
+
+
+
+
+
